@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ALGHAZALI STORE-Product Details page</title>
+    <script
+      src="https://kit.fontawesome.com/21dfa1fe31.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+  </head>
+  <body>
+      <header class="one" style="background-color: #eee; height: 100%">
+        <div class="logo">ALGHAZALI<br />STORE</div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Account</a></li>
+          </ul>
+        </nav>
+        <a href="#" style="color: #333" class="cart"
+          ><i class="fa-solid fa-cart-shopping"></i
+        ></a>
+        <a class="menu"
+          ><i class="fa-solid fa-bars" onclick="menutoggle()"></i
+        ></a>
+      </header>
+      <div class="categories">
+        <div class="mainitem">
+          <div class="item Product_detail" style="margin-bottom: 100px">
+            <div class="row">
+              <img
+                src="photos/rolex.jpg"
+                alt="Clothes"
+              />
+            </div>
+            <div class="row2">
+              <p>Products-Details</p>
+              <h3 style="margin-bottom: 20px">Rolex Watch</h3>
+              <h5 style="margin-bottom: 20px; color: #555">Price : 500&#36;</h5>
+              <h4 style="margin: 20px 0">Details :</h4>
+              <p>
+                Rolex's models are iconic in the watch industry, often serving <br><br>
+                as the blueprint for entire watch categories
+              </p>
+              <div class="q">
+                <label for="qa">Quantity :</label>
+                <input
+                  type="number"
+                  id="qa"
+                  value="1"
+                  min="1"
+                  style="width: 30px; margin-bottom: 10px"
+                />
+                <br />
+                <a href="#" class="moh" style="width: 150px"
+                  >Add to Cart &rarr;</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="tital"
+            style="
+              width: 100%;
+              margin-top: 50px;
+              margin-bottom: 50px;
+              margin-left: 70px;
+              margin-right: 70px;
+            "
+          >
+            <h3>Other Product</h3>
+            <p>View All</p>
+          </div>
+          <div class="item">
+            <a href="ProductDetails.html"
+              ><img
+                src="photos/blackjeans.jpg"
+                alt="House Furniture"
+                width="400px"
+                height="320px"
+            /></a>
+            <h4 style="margin-left: 30px">
+              Name of Item : Black Jeans and Black shoes
+            </h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 100$</p>
+          </div>
+          <div class="item">
+            <img
+              src="photos/blackshoes.jpg"
+              alt="Clothes"
+              width="380px"
+              height="320px"
+            />
+            <h4 style="margin-left: 30px">Name of Item : Black Shoes</h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 50$</p>
+          </div>
+          <div class="item">
+            <img
+              src="photos/brownshart.jpg"
+              alt="phones"
+              width="380px"
+              height="320px"
+            />
+            <h4 style="margin-left: 30px">Name of Item : Dark Green Shirt</h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 100$</p>
+          </div>
+          <div class="item">
+            <img
+              src="photos/bluejeans.jpg"
+              alt="House Furniture"
+              width="400px"
+              height="320px"
+            />
+            <h4 style="margin-left: 30px">Name of Item : Blue Jeans</h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 100$</p>
+          </div>
+          <div class="item">
+            <img
+              src="photos/Jeanssky.jpg"
+              alt="phones"
+              width="380px"
+              height="320px"
+            />
+            <h4 style="margin-left: 30px">
+              Name of Item : Sky Jean and shoes and watch
+            </h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 500$</p>
+          </div>
+          <div class="item">
+            <img
+              src="photos/watch.jpeg"
+              alt="Clothes"
+              width="380px"
+              height="320px"
+            />
+            <h4 style="margin-left: 30px">Name of Item : Smart Watch</h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 500$</p>
+          </div>
+          <div class="item">
+            <a href="#"
+              ><img
+                src="photos/witshoes.jpg"
+                alt="House Furniture"
+                width="400px"
+                height="320px"
+            /></a>
+            <h4 style="margin-left: 30px">Name of Item : Modern Shoes</h4>
+            <div
+              class="rating"
+              style="margin-left: 30px; margin-top: 10px; margin-bottom: 10px"
+            >
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p style="margin-left: 30px">Price: 200$</p>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="footer">
+          <div style="color: #888; display: inline; margin-top: 10px">
+            Copyright &#169; &#50;&#48;&#50;&#50; &#45; All Rights Reserved By
+            Mohanad Alghazali
+          </div>
+          <div
+            class="footer1"
+            style="color: #888; display: inline-block; margin-top: 10px"
+          >
+            <h3 style="color: white">Follow Us</h3>
+            <ul>
+              <li>
+                Facebook<i
+                  class="fa-brands fa-square-facebook"
+                  style="
+                    padding: 5px;
+                    background-color: #000;
+                    margin-left: 5px;
+                    color: dodgerblue;
+                  "
+                ></i>
+              </li>
+              <li>
+                Twitter
+                <i
+                  class="fa-brands fa-twitter"
+                  style="
+                    padding: 5px;
+                    background-color: black;
+                    color: deepskyblue;
+                    margin-left: 5px;
+                  "
+                ></i>
+              </li>
+              <li>
+                Instagram
+                <i
+                  class="fa-brands fa-instagram"
+                  style="
+                    padding: 5px;
+                    background-color: black;
+                    color: white;
+                    margin-left: 5px;
+                  "
+                ></i>
+              </li>
+              <li>
+                Youtube
+                <i
+                  class="fa-brands fa-youtube"
+                  style="
+                    padding: 5px;
+                    background-color: black;
+                    color: red;
+                    margin-left: 5px;
+                  "
+                ></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+      <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle() {
+          if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+          } else {
+            MenuItems.style.maxHeight = "0px";
+          }
+        }
+      </script>
+  </body>
+</html>
